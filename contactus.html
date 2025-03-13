@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: white;
+            color: darkgreen;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh; /* Ensure container takes at least the full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 1rem; /* Smaller title for mobile */
+            height: 5%;
+            border-bottom: 4px solid darkgreen; /* Line under the title */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .content {
+            flex: 1; /* Take up remaining space */
+            padding: 10px;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .content h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            height: auto; /* Adjust height dynamically */
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1rem;
+            border-top: 4px solid darkgreen; /* Line above the footer */
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: darkgreen;
+        }
+
+        a {
+            color: darkgreen;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">CONTACTS</div>
+
+        <div class="content">
+            <h2>SITE TEAM</h2>
+            <p><strong>Rony Majed</strong> – Project Manager, Bauer Resources Saudi</p>
+            <p>Mobile: <a href="tel:+966532500365">+966532500365</a></p>
+            <p>Email: <a href="mailto:rony.majed@bauer.de">rony.majed@bauer.de</a></p>
+
+            <p><strong>Zia Mohammed</strong> – Site Manager, Energia</p>
+            <p>Mobile: <a href="tel:+966560788480">+966560788480</a></p>
+            <p>Email: <a href="mailto:zia@starunitedksa.com">zia@starunitedksa.com</a></p>
+
+            <p><strong>Glenn Evangelista</strong> – HSE Manager, Bauer Resources Saudi</p>
+            <p>Mobile: <a href="tel:+966554539701">+966554539701</a></p>
+            <p>Email: <a href="mailto:glenn.evangelista@bauer.de">glenn.evangelista@bauer.de</a></p>
+
+            <h2>SOLAR PANEL AND ENERGY SOLUTIONS ENQUIRIES</h2>
+            <p>Energia helpline: <a href="tel:920033302">920033302</a></p>
+
+            <h2>REEDBOX AND CONSTRUCTED WETLANDS ENQUIRIES</h2>
+            <p><strong>Dennis Alexandersen</strong> – General Manager, Bauer Resources Saudi</p>
+            <p>Mobile: <a href="tel:+966539605630">+966539605630</a></p>
+            <p>Email: <a href="mailto:dennis.alexandersen@bauer.de">dennis.alexandersen@bauer.de</a></p>
+        </div>
+
+        <div class="footer">
+            <a href="index.html">DASHBOARD</a>
+        </div>
+    </div>
+
+</body>
+</html>

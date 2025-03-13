@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT INFO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: white;
+            color: darkgreen;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh; /* Ensure container takes at least the full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 1rem; /* Smaller title for mobile */
+            height: 5%;
+            border-bottom: 4px solid darkgreen; /* Line under the title */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .content {
+            flex: 1; /* Take up remaining space */
+            padding: 10px;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .content h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            height: auto; /* Adjust height dynamically */
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1rem;
+            border-top: 4px solid darkgreen; /* Line above the footer */
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: darkgreen;
+        }
+
+        a {
+            color: darkgreen;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">PROJECT INFO</div>
+
+        <div class="content">
+            <h2>PROJECT NAME</h2>
+            <p>Al Bada Constructed Wetland</p>
+
+            <h2>CLIENT</h2>
+            <p>NEOM/Enowa</p>
+
+            <h2>CONTRACTORS</h2>
+            <p><a href="https://resources.bauer.de/en" target="_blank">Bauer Resources Saudi</a> – Main Contractor</p>
+            <p><a href="https://energiaksa.com/" target="_blank">Energia</a> – Primary Subcontractor</p>
+
+            <h2>PROJECT DESCRIPTION</h2>
+            <p>The Al-Badaa Lagoon is currently used inefficiently as a dumping site for sludge, posing significant health and safety risks. ENOWA aims to minimize these risks and transform the lagoon into a sustainable solution.</p>
+            <p>ENOWA plans to transform the lagoon into a sustainable constructed wetland (CW) to treat excess sludge, domestic wastewater, rejected tankers, and existing lagoon sludge, operating as a zero liquid discharge (ZLD) plant.</p>
+            <p>The CW will eliminate discharge by using evapotranspiration, providing an eco-friendly solution to the lagoon's legacy issues.</p>
+        </div>
+
+        <div class="footer">
+            <a href="index.html">DASHBOARD</a>
+        </div>
+    </div>
+
+</body>
+</html>
